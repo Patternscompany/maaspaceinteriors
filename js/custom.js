@@ -422,8 +422,8 @@ function aboutCarousel () {
 
 //=== Project Carousel ===
 function projectCarousel () {
-    if ($('.project-carousel').length) {
-        $('.project-carousel').owlCarousel({
+    if ($('.project-carouse').length) {
+        $('.project-carouse').owlCarousel({
             dots: true,
             loop: true,
             margin: 10,

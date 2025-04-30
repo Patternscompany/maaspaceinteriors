@@ -208,7 +208,7 @@ li{
 
 
 .btn-two{
-    color: #27282c;
+    color: #ffffff;
     font-size: 15px;
     line-height: 20px;;
     font-weight: 500;
@@ -597,6 +597,11 @@ li{
     z-index: 9999999999999;
     box-shadow: 0px 8px 23px -6px rgba(27,27,27,1);
 }
+.scroll-to-top-style2.whatsapp {
+    bottom: 100px;
+    right: 15px;
+    display: unset !important;
+}
 .scroll-to-top-style2:hover {
     opacity: .5;
 }
@@ -929,12 +934,23 @@ select:focus {
     position: relative;
     display: block;
     z-index: 999;
+    width: 100%;
 }
-.main-header.header-style1{}
+.main-header.header-style1{
+    position: absolute;
+    background: transparent;
+}
+.header-upper-style1 .inner-container{
+    background: transparent !important;
+    width: 100%;
+}
+.header-upper-style1{
+    
+}
 .header-upper-style1{
     position: relative;
     display: block;  
-    background: #f6f6f6;
+    /* background: #f6f6f6; */
 }
 .header-upper-style1.fixed-header .inner-container {
     position: fixed;
@@ -947,6 +963,7 @@ select:focus {
     box-shadow: 0 0 10px rgba(0,0,0,.1);
     transition: all 900ms ease 100ms;
     z-index: 9999999999;
+    background: #000000 !important;
 }
 .header-upper-style1.fixed-header .logo-box-style1 {
     /* margin: 10px 0; */
@@ -971,9 +988,9 @@ select:focus {
     display: block;
     padding: 0 40px;
     /* margin-top: -45px; */
-    background: #ffffff;
+    /* background: #ffffff;
     -webkit-box-shadow: 0px 4px 11px -1px #ECECEC; 
-    box-shadow: 0px 4px 11px -1px #ECECEC;
+    box-shadow: 0px 4px 11px -1px #ECECEC; */
     z-index: 9999999999;
 }
 .logo-box-style1 {
@@ -987,14 +1004,15 @@ select:focus {
 }
 .main-menu-box{
     position: relative;
-    display: block;       
+    display: block; 
+    text-align: center;      
 }
 
 
 .main-menu {
     position: relative;
     display: inline-block;
-    float: left;
+    /* float: left; */
 }
 .main-menu .navbar-collapse {
     padding: 0px
@@ -1014,7 +1032,7 @@ select:focus {
 .main-menu .navigation > li > a {
     position: relative;
     display: block;
-    color: #27282c;
+    color: white;
     font-size: 14px;
     line-height: 14px;
     font-weight: 500;
@@ -1042,6 +1060,7 @@ select:focus {
     border-radius: 0px;
     transition: all 500ms ease;
     z-index: 100;
+    text-align: left;
 }
 .main-menu .navigation > li > ul:before {
     position: absolute;
@@ -1049,7 +1068,7 @@ select:focus {
     left: 0;
     bottom: 0;
     width: 100%;
-    background: #ffffff;
+    background: #000000;
     content: "";
     z-index: -1;
 }
@@ -1071,7 +1090,7 @@ select:focus {
 .main-menu .navigation > li > ul > li > a {
     position: relative;
     display: block;
-    color: #828282;
+    color: #ffffff;
     font-size: 15px;
     line-height: 20px;
     font-weight: 400;
@@ -1226,9 +1245,14 @@ select:focus {
     border-radius: 3px;
     color: white;
     display: inline-block;
+    display: none;
 }
 
-
+@media (max-width: 991px) {
+    .main-menu .navbar-collapse > ul li.dropdown .dropdown-btn::after {
+        display: block;
+    }
+}
 
 
 .mainmenu-right {
@@ -1244,6 +1268,7 @@ select:focus {
     padding: 20px 0;
     margin-right: 20px;
     transition: all 500ms ease 100ms;
+    
 }
 .outer-search-box .seach-toggle {
     position: relative;
@@ -1258,6 +1283,7 @@ select:focus {
     border-radius: 3px;
     margin: 0;
     border-right: 1px solid #ededed;
+    background: #ffffff;
     transition: all 500ms ease;
 }
 .outer-search-box .seach-toggle:hover,
@@ -2174,6 +2200,10 @@ select:focus {
     position: relative;
     display: block;
     padding: 110px 0 108px;
+   
+}
+.recently-project-area .sec-title .title{
+   
 }
 .recently-project-area .container-fluid {
     padding-right: 10px;
@@ -2211,7 +2241,7 @@ select:focus {
     height: 100%;
     content: "";
     background: rgba(0, 0, 0, 0.80);
-    transform: scaleX(0);
+    transform: scaleX(1);
     transition: all 700ms ease 100ms;
 }
 .single-project-style1:hover .overlay-content{
@@ -2428,7 +2458,7 @@ select:focus {
 .slogan-area {
     position: relative;
     display: block;
-    background: #e9212e;
+    background: #000000;
     padding: 35px 0;
 }
 
@@ -2552,7 +2582,7 @@ select:focus {
     left: 0;
     width: 60px;
     height: 70px;
-    background: #e9212e;
+    background: #000000;
     z-index: 3;
 }
 .single-testimonial-item .quote-icon span:before{
@@ -5692,8 +5722,9 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 .topbar-style3-area {
     position: relative;
     display: block;
-    border-bottom: 1px solid #ededed;
+    /* border-bottom: 1px solid #ededed; */
     padding: 12px 0;
+    background-color: black;
 }
 .topbar-style3-content {
     position: relative;
