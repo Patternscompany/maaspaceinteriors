@@ -206,7 +206,10 @@ li{
     background: #27282c;
 }
 
-
+.topbar-style3-area .btn-one{
+    font-size: 15px;
+    line-height: 40px;
+}
 .btn-two{
     color: #ffffff;
     font-size: 15px;
