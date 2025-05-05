@@ -2257,14 +2257,14 @@ select:focus {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    opacity: 0;
+    /* opacity: 0; */
     transform-style: preserve-3d;
-    transform: perspective(1200px) rotateX(90deg) translateZ(-45px);
+    /* transform: perspective(1200px) rotateX(90deg) translateZ(-45px); */
     transition: all 300ms ease 100ms;
 }
 .single-project-style1:hover .overlay-content .inner-content .link-box{
-    opacity: 1;
-    transform: translate3d(0px, 0px, 0px); 
+    /* opacity: 1;
+    transform: translate3d(0px, 0px, 0px);  */
     transition: all 700ms ease 500ms;
 }
 .single-project-style1 .overlay-content .inner-content .link-box a {
@@ -2287,14 +2287,14 @@ select:focus {
     display: block;
     padding-bottom: 34px;
     transform-style: preserve-3d;
-    transform: perspective(1200px) rotateX(90deg) translateZ(-45px);
-    opacity: 0;
+    /* transform: perspective(1200px) rotateX(90deg) translateZ(-45px);
+    opacity: 0; */
     transition: all 300ms ease 200ms;
     z-index: 3;
 }
 .single-project-style1:hover .img-holder .title-box{
-    transform: translate3d(0px, 0px, 0px); 
-    opacity: 1;
+    /* transform: translate3d(0px, 0px, 0px); 
+    opacity: 1; */
     transition: all 700ms ease 800ms;    
 }
 .single-project-style1 .img-holder .title-box span{
@@ -3152,7 +3152,7 @@ select:focus {
 .footer-area {
     position: relative;
     display: block;
-    background: #27282c;
+    background: #000000;
     padding-top: 110px;
     padding-bottom: 110px;
     z-index: 1;
@@ -3498,7 +3498,7 @@ select:focus {
     float: left;    
 }
 .footer-social-links .sociallinks-style-one li a i {
-    color: #7c7e84;
+    color: #000000;
     font-size: 14px;
     font-weight: 400;
     transition: all 500ms ease;
@@ -5762,8 +5762,8 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 .topbar-style3-right {
     position: relative;
     display: block;
-    max-width: 270px;
-    width: 100%;
+    /* max-width: 270px;
+    width: 100%; */
 }
 .topbar-style3-right ul {
     position: relative;
