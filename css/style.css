@@ -89,6 +89,23 @@ body {
     font-weight: 400;
     font-family: 'Rubik', sans-serif;
 }
+body::-webkit-scrollbar {
+    width: 8px;
+    background: #f3f3f3;
+}
+body::-webkit-scrollbar-thumb {
+    background: #e9212e;
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb:hover {
+    background: #e9212e;
+}
+body::-webkit-scrollbar-thumb:active {
+    background: #e9212e;
+}
+body::-webkit-scrollbar-track {
+    background: #f3f3f3;
+}
 button:focus{
     outline: none;
 }
