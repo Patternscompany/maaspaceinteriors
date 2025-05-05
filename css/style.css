@@ -2281,7 +2281,7 @@ select:focus {
 .single-project-style1 .img-holder .title-box {
     position: absolute;
     left: 0px;
-    bottom: 0px;
+    top: 25%;
     right: 0px;
     text-align: center;
     display: block;

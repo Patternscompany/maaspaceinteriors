@@ -335,6 +335,9 @@
                             <p>15+ years delivering beautiful residential and commercial interiors with precision.</p>
                         </div>
                     </div>
+                    <div class="read-more col-xl-12 col-md-12 mt-4">
+                        <a href="about.html" class="btn-one">Read More<span class="flaticon-next"></span></a>
+                    </div>
                 </div>
         
             </div>
@@ -343,12 +346,43 @@
         <!--End about Area-->
 
 <style>
-    .about-area .feature-box{
-        padding: 30px; background: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.05);
-    }
+    .about-area .feature-box {
+    position: relative;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Pseudo-element for border animation */
+.about-area .feature-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    border-left: 2px solid #e9212e;
+    border-right: 2px solid #e9212e;
+    transition: height 0.5s ease;
+    border-radius: 10px;
+    pointer-events: none; /* avoids blocking hover */
+}
+
+.about-area .feature-box:hover {
+    transform: translateY(-10px);
+}
+
+.about-area .feature-box:hover::before {
+    height: 100%;
+}
+
     .about-area .feature-box i{
         font-size: 40px; color: #e9212e; margin-bottom: 15px;
     }
+    
 </style>
 
         <section class="why-choose-us" >
@@ -361,7 +395,9 @@
                     <!-- Reason 1 -->
                     <div class="col-lg-6 col-md-6 mb-4">
                         <div class="feature-box" >
-                            <i class="fas fa-user-tie" ></i>
+                            <div class="img-box p-3">
+                                <img src="images/choose-us/experienced-team.jpg" alt="">
+                            </div>
                             <h4>Experienced Team</h4>
                             <p>Our designers bring years of industry experience, delivering quality and creativity in every project.</p>
                         </div>
@@ -370,7 +406,9 @@
                     <!-- Reason 2 -->
                     <div class="col-lg-6 col-md-6 mb-4">
                         <div class="feature-box" >
-                            <i class="fas fa-palette" ></i>
+                            <div class="img-box p-3">
+                                <img src="images/choose-us/personalized-designs.png" alt="">
+                            </div>
                             <h4>Personalized Designs</h4>
                             <p>We tailor each project to reflect your personal style, ensuring every detail aligns with your vision.</p>
                         </div>
@@ -379,7 +417,9 @@
                     <!-- Reason 3 -->
                     <div class="col-lg-6 col-md-6 mb-4">
                         <div class="feature-box" >
-                            <i class="fas fa-gem" ></i>
+                            <div class="img-box p-3">
+                                <img src="images/choose-us/quality-materials.png" alt="">
+                            </div>
                             <h4>Quality Materials</h4>
                             <p>We use only premium materials and trusted vendors to ensure long-lasting and beautiful results.</p>
                         </div>
@@ -388,7 +428,9 @@
                     <!-- Reason 4 -->
                     <div class="col-lg-6 col-md-6 mb-4">
                         <div class="feature-box" >
-                            <i class="fas fa-headset" ></i>
+                            <div class="img-box p-3">
+                                <img src="images/choose-us/end-to-end-support.png" alt="">
+                            </div>
                             <h4>End-to-End Support</h4>
                             <p>From concept to execution, we offer full project support to make your experience seamless and stress-free.</p>
                         </div>
@@ -406,7 +448,7 @@
 
     }
     .why-choose-us .feature-box{
-        padding: 30px; background: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        padding: 10px; background: #fff; border-radius: 2px; box-shadow: 0 0 10px rgba(0,0,0,0.05);
     }
     .why-choose-us .feature-box i{
         font-size: 40px; color: #e9212e; margin-bottom: 20px;
@@ -497,11 +539,13 @@
         <section class="our-services-area" style="padding: 20px 0;">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 py-3">
+                    <div class="col-md-12 py-5">
+                       
                         <div class="sec-title text-center">
-                            
-                            <div class="title main"><span class="mr-3">Our</span>Services</div>
+                            <p>One Step Towards >>> Your Dream Space</p>
+                            <div class="title">Our<span>Services</span></div>
                         </div>
+                        
                     </div>
                    
                     <!-- Architectural Designing -->
@@ -586,6 +630,7 @@
         
 
         <style>
+         
             .our-services-area{
                 background-color: #f9f9f9;
             }
@@ -611,20 +656,20 @@
                 transform:rotate(2deg);
             }
             .our-services-area .sec-title .title.main{
-                text-decoration: underline;
+                /* text-decoration: underline; */
             }
             .our-services-area .sec-title{
                 padding-bottom: 10px;
                 margin-top: 0;
             }
-            .our-services-area .sec-title .title{
+            /* .our-services-area .sec-title .title{
                 color: #e9212e;
 
             }
             .our-services-area .sec-title .title span{
                 color: #222;
               
-            }
+            } */
             .service-content {
                 width: 50%;
                 padding:20px;
@@ -795,7 +840,7 @@
                             <div class="overlay-content">
                                 <div class="inner-content">
                                     <div class="link-box">
-                                        <a class="btn-one" href="#">Read more...<span class="flaticon-next"></span></a>
+                                        <a class="btn-one" href="#">About Project..<span class="flaticon-next"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -813,7 +858,7 @@
                             <div class="overlay-content">
                                 <div class="inner-content">
                                     <div class="link-box">
-                                        <a class="btn-one" href="#">Read more...<span class="flaticon-next"></span></a>
+                                        <a class="btn-one" href="#">About Project..<span class="flaticon-next"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -831,7 +876,7 @@
                             <div class="overlay-content">
                                 <div class="inner-content">
                                     <div class="link-box">
-                                        <a class="btn-one" href="#">Read more...<span class="flaticon-next"></span></a>
+                                        <a class="btn-one" href="#">About Project..<span class="flaticon-next"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -849,7 +894,7 @@
                             <div class="overlay-content">
                                 <div class="inner-content">
                                     <div class="link-box">
-                                        <a class="btn-one" href="#">Read more...<span class="flaticon-next"></span></a>
+                                        <a class="btn-one" href="#">About Project..<span class="flaticon-next"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -867,7 +912,7 @@
                             <div class="overlay-content">
                                 <div class="inner-content">
                                     <div class="link-box">
-                                        <a class="btn-one" href="#">Read more...<span class="flaticon-next"></span></a>
+                                        <a class="btn-one" href="#">About Project..<span class="flaticon-next"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -886,7 +931,7 @@
                             <div class="overlay-content">
                                 <div class="inner-content">
                                     <div class="link-box">
-                                        <a class="btn-one" href="#">Read more...<span class="flaticon-next"></span></a>
+                                        <a class="btn-one" href="#">About Project..<span class="flaticon-next"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -904,7 +949,7 @@
                             <div class="overlay-content">
                                 <div class="inner-content">
                                     <div class="link-box">
-                                        <a class="btn-one" href="#">Read more...<span class="flaticon-next"></span></a>
+                                        <a class="btn-one" href="#">About Project..<span class="flaticon-next"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -922,7 +967,7 @@
                             <div class="overlay-content">
                                 <div class="inner-content">
                                     <div class="link-box">
-                                        <a class="btn-one" href="#">Read more...<span class="flaticon-next"></span></a>
+                                        <a class="btn-one" href="#">About Project..<span class="flaticon-next"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -940,7 +985,7 @@
                             <div class="overlay-content">
                                 <div class="inner-content">
                                     <div class="link-box">
-                                        <a class="btn-one" href="#">Read more...<span class="flaticon-next"></span></a>
+                                        <a class="btn-one" href="#">About Project..<span class="flaticon-next"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -958,7 +1003,7 @@
                             <div class="overlay-content">
                                 <div class="inner-content">
                                     <div class="link-box">
-                                        <a class="btn-one" href="#">Read more...<span class="flaticon-next"></span></a>
+                                        <a class="btn-one" href="#">About Project..<span class="flaticon-next"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -977,7 +1022,7 @@
                             <div class="overlay-content">
                                 <div class="inner-content">
                                     <div class="link-box">
-                                        <a class="btn-one" href="#">Read more...<span class="flaticon-next"></span></a>
+                                        <a class="btn-one" href="#">About Project..<span class="flaticon-next"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -995,7 +1040,7 @@
                             <div class="overlay-content">
                                 <div class="inner-content">
                                     <div class="link-box">
-                                        <a class="btn-one" href="#">Read more...<span class="flaticon-next"></span></a>
+                                        <a class="btn-one" href="#">About Project..<span class="flaticon-next"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -1013,7 +1058,7 @@
                             <div class="overlay-content">
                                 <div class="inner-content">
                                     <div class="link-box">
-                                        <a class="btn-one" href="#">Read more...<span class="flaticon-next"></span></a>
+                                        <a class="btn-one" href="#">About Project..<span class="flaticon-next"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -1031,7 +1076,7 @@
                             <div class="overlay-content">
                                 <div class="inner-content">
                                     <div class="link-box">
-                                        <a class="btn-one" href="#">Read more...<span class="flaticon-next"></span></a>
+                                        <a class="btn-one" href="#">About Project..<span class="flaticon-next"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -1049,7 +1094,7 @@
                             <div class="overlay-content">
                                 <div class="inner-content">
                                     <div class="link-box">
-                                        <a class="btn-one" href="#">Read more...<span class="flaticon-next"></span></a>
+                                        <a class="btn-one" href="#">About Project..<span class="flaticon-next"></span></a>
                                     </div>
                                 </div>
                             </div>
