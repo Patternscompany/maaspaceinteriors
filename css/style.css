@@ -13243,7 +13243,8 @@ li .single-footer-contact-info .text p span{
   }
   
 
-
-
-
-
+@media(max-width:992px){
+    .main-header .fa-angle-down{
+        display: none;
+    }
+}
