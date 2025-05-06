@@ -160,7 +160,7 @@
         <!--End Main Header-->
 
         <!--Main Slider-->
-        <section class="main-slider">
+        <!-- <section class="main-slider">
             <div class="rev_slider_wrapper fullwidthbanner-container" id="rev_slider_one_wrapper" data-source="gallery">
                 <div class="rev_slider fullwidthabanner" id="rev_slider_one" data-version="5.4.1">
                     <ul>
@@ -304,11 +304,158 @@
                     </ul>
                 </div>
             </div>
-        </section>
+        </section> -->
+
+        <section class="hero-slider">
+            <div class="hero-slider-content">
+              <div class="hero-carousel owl-carousel owl-theme">
+                <div class="hero-slider-item">
+                    <img src="images/slides/ma-space (3).png" alt="MA Space">
+                    <div class="slider-overlay">
+                      <h2>MA Space</h2>
+                      <p>Transform your spaces with our expert interior designing services.</p>
+                      <div class="btn-box">
+                          <a class="btn-one" href="#">About Company<span class="flaticon-next"></span></a>
+                         
+                      </div>
+                    </div>
+                  </div>
+                <div class="hero-slider-item">
+                  <img src="images/slides/construction-designing.png" alt="Construction Designing">
+                  <div class="slider-overlay">
+                    <h2>Construction Designing</h2>
+                    <p>Innovative and reliable construction solutions tailored for your dream projects.</p>
+                    <div class="btn-box">
+                        <a class="btn-one" href="#">About Company<span class="flaticon-next"></span></a>
+                       
+                    </div>
+                  </div>
+                </div>
+                <div class="hero-slider-item">
+                  <img src="images/slides/furniture-designing.png" alt="Furniture Designing">
+                  <div class="slider-overlay">
+                    <h2>Furniture Designing</h2>
+                    <p>Custom-made furniture to fit your lifestyle and comfort perfectly.</p>
+                    <div class="btn-box">
+                        <a class="btn-one" href="#">About Company<span class="flaticon-next"></span></a>
+                       
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="hero-slider-item">
+                  <img src="images/slides/architectural-designing.png" alt="Architectural Designing">
+                  <div class="slider-overlay">
+                    <h2>Architectural Designing</h2>
+                    <p>Creative architectural designs that blend functionality with elegance.</p>
+                    <div class="btn-box">
+                        <a class="btn-one" href="#">About Company<span class="flaticon-next"></span></a>
+                       
+                    </div>
+                  </div>
+                </div>
+          
+              </div>
+            </div>
+          </section>
+          
+
+
         <!--End Main Slider-->
 
-       <style>
+<style>
+    .hero-slider {
+  position: relative;
+  overflow: hidden;
+}
 
+.hero-slider-item {
+  position: relative;
+}
+
+.hero-slider-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.slider-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  /* background: rgba(0, 0, 0, 0.4); */
+  border-radius: 12px;
+  max-width: 90%;
+}
+
+.slider-overlay h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.slider-overlay p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.slider-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff7f50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.slider-btn:hover {
+  background-color: #ff5722;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .slider-overlay h2 {
+    font-size: 1.5rem;
+  }
+
+  .slider-overlay p {
+    font-size: 0.9rem;
+  }
+
+  .slider-btn {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider-overlay {
+    padding: 15px;
+  }
+
+  .slider-overlay h2 {
+    font-size: 1.2rem;
+  }
+
+  .slider-overlay p {
+    font-size: 0.8rem;
+  }
+
+  .slider-btn {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+}
+
+</style>
+
+
+       <style>
         @media(max-width:992px){
             .main-slider{
                 height: 70svh !important;

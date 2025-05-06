@@ -704,6 +704,43 @@ function servicesCarousel () {
         });    		
     }
 }
+function servicesCarousel () {
+    if ($('.hero-carousel').length) {
+        $('.hero-carousel').owlCarousel({
+            dots: false,
+            loop: true,
+            margin: 30,
+            nav: true,
+            navText: [
+                '<span class="fa fa-angle-left left"></span>',
+                '<span class="fa fa-angle-right right"></span>'
+            ],
+            autoplayHoverPause: false,
+            autoplay: 6000,
+            smartSpeed: 1000,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                800:{
+                    items:1
+                },
+                1024:{
+                    items:1
+                },
+                1100:{
+                    items:1
+                },
+                1200:{
+                    items:1
+                }
+            }
+        });    		
+    }
+}
 
 
 
