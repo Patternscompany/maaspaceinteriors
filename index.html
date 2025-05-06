@@ -1783,6 +1783,7 @@
         </div>
 
 <!-- Your existing pop-up -->
+
 <div id="pop-up" style="display: none;">
     <button class="close-btn" onclick="document.getElementById('pop-up').style.display='none'">×</button>
     <form class="appointment-form">
@@ -1829,54 +1830,12 @@
         </div>
     </form>
 </div>
-
 <style>
-    #pop-up {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: white;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        z-index: 999;
-        width: 400px;
-        max-width:100%;
-    }
-    #pop-up .close-btn {
-        position: absolute;
-        top: 3px;
-        right: 5px;
-        background: none;
-        border: none;
-        font-size: 20px;
-        cursor: pointer;
-    }
+   
 </style>
 
 <script>
-// Get the button and popup element
-const getQuoteBtn = document.getElementById('get-quote-btn');
-const popup = document.getElementById('pop-up');
 
-// Function to show the popup
-getQuoteBtn.addEventListener('click', function(e) {
-    e.preventDefault();
-    popup.style.display = 'block';
-});
-
-// Optional: Close popup when clicking outside or pressing ESC
-window.addEventListener('click', function(e) {
-    if (e.target === popup) {
-        popup.style.display = 'none';
-    }
-});
-window.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') {
-        popup.style.display = 'none';
-    }
-});
 </script>
 
 

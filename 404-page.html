@@ -405,6 +405,55 @@
           </div>
         </div>
 
+
+        <div id="pop-up" style="display: none;">
+            <button class="close-btn" onclick="document.getElementById('pop-up').style.display='none'">×</button>
+            <form class="appointment-form">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="single-box">
+                            <input type="text" name="form_name" value="" placeholder="Name" required="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="single-box">
+                            <input type="email" name="form_email" value="" placeholder="Email" required="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="single-box">
+                            <input type="tel" name="form_phone" value="" placeholder="Phone Number" required="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="single-box">
+                            <select class="selectpicker" data-width="100%">
+                                <option selected="selected">Services</option>
+                                <option>Architectural Designing</option>
+                                <option>Interior Designing</option>
+                                <option>Office Designing</option>
+                                <option>Furniture Designing</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4">
+                        <div class="single-box">
+                            <button class="btn-one" type="submit">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
     <script src="js/jquery.js"></script>
     <script src="js/appear.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>

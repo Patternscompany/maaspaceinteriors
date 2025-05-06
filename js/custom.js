@@ -1040,7 +1040,27 @@ jQuery(document).on('ready', function () {
 	})(jQuery);
 });
 
+// Get the button and popup element
+const getQuoteBtn = document.getElementById('get-quote-btn');
+const popup = document.getElementById('pop-up');
 
+// Function to show the popup
+getQuoteBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    popup.style.display = 'block';
+});
+
+// Optional: Close popup when clicking outside or pressing ESC
+window.addEventListener('click', function(e) {
+    if (e.target === popup) {
+        popup.style.display = 'none';
+    }
+});
+window.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        popup.style.display = 'none';
+    }
+});
 
 jQuery(window).on('scroll', function(){
 	(function ($) {
