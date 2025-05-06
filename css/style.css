@@ -2762,6 +2762,7 @@ select:focus {
 }
 .appointment-form input[type="text"], 
 .appointment-form input[type="email"], 
+.appointment-form input[type="tel"], 
 .appointment-form textarea {
     position: relative;
     display: block;
