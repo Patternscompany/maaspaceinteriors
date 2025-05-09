@@ -7698,7 +7698,11 @@ li .single-footer-contact-info .text p span{
     background: #e9212e;
     border-color: #e9212e;
 }
-
+.testimonial-style3-service-page .image img{
+    height: 50px;
+    width:50px;
+object-fit: cover;
+}
 
 
 /*** 
