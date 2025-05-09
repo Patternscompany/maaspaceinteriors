@@ -13201,7 +13201,18 @@ li .single-footer-contact-info .text p span{
     box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.3),
       inset 0 0 5px rgba(255, 255, 255, 0.5), 0 5px 5px rgba(0, 0, 0, 0.164);
   }
-  
+  .social-fix .facebook .svg {
+    background: #1877f2;
+    color: #ffffff;
+  }
+    .social-fix .twitter .svg {
+        background: #1da1f2;
+        color: #ffffff;
+    }
+    .social-fix .instagram .svg {
+        background: #e1306c;
+        color: #ffffff;
+    }
   .social-fix .text {
     opacity: 0;
     border-radius: 5px;
