@@ -13368,4 +13368,6 @@ li .single-footer-contact-info .text p span{
     gap: 30px; /* increase gap between cards */
     padding: 20px; /* add padding around the entire grid */
   }
-  
+  .sec-title p {
+    padding: 2px;
+  }
