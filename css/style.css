@@ -13375,3 +13375,121 @@ object-fit: cover;
   .sec-title p {
     padding: 2px;
   }
+
+.process-flow {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.process-heading {
+  font-size: 24px;
+  color: #4b2b63;
+  margin-bottom: 40px;
+}
+
+.process-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-width: 160px;
+  position: relative;
+}
+
+.icon-circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: red;
+  color: #fff;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+  position: relative;
+  z-index: 1;
+}
+
+.icon-circle:hover {
+  background-color: #5e265e;
+}
+
+.step-text {
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+  line-height: 1.4;
+}
+
+/* Arrow between steps */
+.arrow {
+  width: 50px;
+  height: 2px;
+  background-color: #823c82;
+  position: relative;
+  top: -20px; /* Move it vertically to center with the circle */
+}
+
+.arrow::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #823c82;
+  border-right: 2px solid #823c82;
+  transform: rotate(45deg);
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .process-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px; /* more spacing between vertical steps */
+  }
+
+  .arrow {
+    display: none; /* Hide arrows on mobile */
+  }
+
+  .step {
+    min-width: auto;
+    width: 100%;
+    max-width: 300px; /* control width of each step on mobile */
+  }
+
+  .process-heading {
+    font-size: 20px;
+  }
+
+  .step-text {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+}
+
+
+
+.sec-title p {
+  line-height: 30px; /* default for desktop */
+}
+
+/* Mobile View Fix */
+@media (max-width: 768px) {
+  .sec-title p {
+    line-height: 27px; /* or any smaller value that fits well */
+    font-size: 25px;    /* optional: adjust font size for mobile */
+  }
+}
