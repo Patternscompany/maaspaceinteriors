@@ -13482,6 +13482,7 @@ object-fit: cover;
 
 
 
+
 .sec-title p {
   line-height: 30px; /* default for desktop */
 }
@@ -13493,3 +13494,4 @@ object-fit: cover;
     font-size: 25px;    /* optional: adjust font size for mobile */
   }
 }
+
