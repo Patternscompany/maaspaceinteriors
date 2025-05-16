@@ -13406,10 +13406,10 @@ object-fit: cover;
 }
 
 .icon-circle {
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-  background-color: red;
+  width: 70px;
+  height: 70px;
+  border-radius: 70%;
+  /* background-color: red; */
   color: #fff;
   font-size: 32px;
   display: flex;
@@ -13420,9 +13420,9 @@ object-fit: cover;
   z-index: 1;
 }
 
-.icon-circle:hover {
-  background-color: #5e265e;
-}
+/* .icon-circle:hover {
+  background-color: red;
+} */
 
 .step-text {
   font-size: 14px;
@@ -13535,12 +13535,12 @@ object-fit: cover;
 }
 
 .feature-item img {
-  width: 120px;
-  height: 120px;
+   width: 100px;              /* Decreased width */
+  height: 100px;             /* Decreased height */
   border-radius: 50%;
   object-fit: contain;
   background-color: #f4f4f4;
-  padding: 10px;
+  padding: 5px;             /* Reduced padding */
   margin-bottom: 10px;
 }
 
