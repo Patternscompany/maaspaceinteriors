@@ -13495,3 +13495,56 @@ object-fit: cover;
   }
 }
 
+.why-choose-us {
+  text-align: center;
+  padding: 40px 20px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.why-choose-us h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.scroll-wrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.scroll-content {
+  display: flex;
+  gap: 50px;
+  animation: scroll-left 30s linear infinite; /* changed */
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%); /* start from right */
+  }
+  100% {
+    transform: translateX(-50%); /* move to left */
+  }
+}
+
+
+.feature-item {
+  flex: 0 0 auto;
+  text-align: center;
+}
+
+.feature-item img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: contain;
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 16px;
+  margin: 0;
+}
