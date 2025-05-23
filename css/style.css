@@ -13438,6 +13438,7 @@ object-fit: cover;
   background-color: #823c82;
   position: relative;
   top: -20px; /* Move it vertically to center with the circle */
+  color: red;
 }
 
 .arrow::after {
