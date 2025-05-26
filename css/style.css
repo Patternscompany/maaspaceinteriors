@@ -83,7 +83,7 @@ body {
     height: 100%;
 }
 body {
-    color: #828282;
+    color:black;
     font-size: 15px;
     line-height: 25px;
     font-weight: 400;
@@ -220,7 +220,7 @@ li{
 }
 .btn-one:hover{
     color: #ffffff;
-    background: #27282c;
+    background:black;
 }
 
 .topbar-style3-area .btn-one{
@@ -620,8 +620,11 @@ li{
 .scroll-to-top-style2.whatsapp {
     bottom: 100px;
     right: 15px;
-    display: unset !important;
+    display: block !important; /* or 'inline', 'inline-block', etc., based on your layout needs */
+    background-color: transparent !important; /* use 'transparent' instead of 'none' */
+    border:transparent !important; ;
 }
+
 .scroll-to-top-style2:hover {
     opacity: .5;
 }
@@ -2767,9 +2770,9 @@ select:focus {
     position: relative;
     display: block;
     padding: 0 20px;
-    border: 1px solid #ededed;
+    border: 1px solid #F94C1E;
     background: #ffffff;
-    color: #7c7e84;
+    color:black;
     font-size: 15px;
     font-weight: 400;
     width: 100%;
@@ -2787,7 +2790,7 @@ select:focus {
 .appointment-form .single-box button{
     display: block;
     width: 100%;
-    background: #e9212e;
+    /* background: #e9212e; */
     color: #ffffff;
     margin-top: 20px;
     border-radius: 5px;
@@ -2850,7 +2853,7 @@ select:focus {
     width: 100%;
     padding: 9px 20px 9px;
     font-weight: 400;
-    color: #222222;
+    color: black;
     text-align: inherit;
     white-space: nowrap;
     background-color: transparent;
@@ -3490,7 +3493,7 @@ select:focus {
     margin: 0;
 }
 .footer-bottom-area .copyright-text p a {
-    color: #e9212e;
+    color:#F94C1E;
     font-weight: 500;
     transition: all 500ms ease;
 }
@@ -3507,7 +3510,7 @@ select:focus {
     display: inline-block;
     float: left;
     padding-right: 15px;
-    color: #27282c;
+    color:#F94C1E;
     font-size: 14px;
     line-height: 30px;
     font-weight: 600;
@@ -7011,6 +7014,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     position: relative;
     display: block;
     padding: 360px 0 0;
+    
 }
 .breadcrumb-area .title {
     position: relative;
@@ -9216,7 +9220,7 @@ object-fit: cover;
     left: 0;
     bottom: 0;
     content: "\e910";
-    color: #a7a7a7;
+    color: #F94C1E;
     font-size: 25px;
 }
 
@@ -9266,7 +9270,7 @@ object-fit: cover;
     position: relative;
     display: block;
     padding-left: 20px;
-    color: #27282c;
+    color:#F94C1E;
     font-size: 24px;
     line-height: 30px;
     font-weight: 700;
@@ -9312,7 +9316,7 @@ object-fit: cover;
     padding-left: 20px;
 }
 .project-info-content .inner-content ul li .title h4{
-    color: #27282c;
+    color: #F94C1E;
     font-size: 16px;
     line-height: 20px;
     font-weight: 600;
@@ -12708,6 +12712,7 @@ object-fit: cover;
     margin-top: -115px;
     margin-bottom: 30px;
     transition: all 900ms ease 600ms;
+    color: black;
 }
 .single-contact-address-box:hover{
     -webkit-box-shadow: 0px 5px 12px 2px #ededed; 
@@ -12715,7 +12720,7 @@ object-fit: cover;
 }
 
 .single-contact-address-box span:before{
-    color: #b3b3b3;
+    color: black;
     font-size: 50px;
     line-height: 50px;
     transition: all 500ms ease;
@@ -13357,6 +13362,7 @@ object-fit: cover;
     background: black;
     color: white;
     padding: 8px 16px;
+    margin-top: 30px;
     border-radius: 20px;
     text-decoration: none;
     font-size: 14px;
@@ -13436,7 +13442,7 @@ object-fit: cover;
 .arrow {
   width: 50px;
   height: 2px;
-  background-color: #823c82;
+  background-color:#F94C1E;
   position: relative;
   top: -20px; /* Move it vertically to center with the circle */
   color: red;
@@ -13449,8 +13455,8 @@ object-fit: cover;
   right: 0;
   width: 10px;
   height: 10px;
-  border-top: 2px solid #823c82;
-  border-right: 2px solid #823c82;
+  border-top: 2px solid #F94C1E;
+  border-right: 2px solid #F94C1E;
   transform: rotate(45deg);
   background-color: #fff;
 }
@@ -13583,3 +13589,7 @@ object-fit: cover;
   color: #F94C1E;
 }
 
+.bootstrap-select .dropdown-menu li a:hover {
+    background-color: #F94C1E !important;
+    color: #fff !important;
+}
