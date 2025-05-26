@@ -116,7 +116,7 @@ button {
     padding: 0;
 }
 h1, h2, h3, h4, h5, h6 {
-    color: #3a3a3a;
+    color: #F94C1E ;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -194,7 +194,7 @@ li{
 .btn-one {
     position: relative;
     display: inline-block;
-    background: #e9212e;
+    background:#F94C1E ;
     color: #ffffff;
     font-size: 15px;
     line-height: 60px;
@@ -295,7 +295,7 @@ li{
 
 
 .sec-title p{
-    color: #e9212e;
+    color:#F94C1E ;
     font-size: 30px;
     line-height: 20px;
     font-weight: 600;
@@ -601,8 +601,8 @@ li{
     position: fixed;
     bottom: 25px;
     right: 15px;
-    background: #e9212e;
-    border: 2px solid #e9212e;
+    background:#F94C1E ;
+    border: 2px solid #F94C1E ;
     width: 55px;
     height: 55px;
     border-radius: 0%;
@@ -854,7 +854,7 @@ select:focus {
 }
 .review-box ul li i {
     font-size: 16px;
-    color: #e9212e;
+    color: #F94C1E ;
 }
 
 .sociallinks-style-one{
@@ -1064,7 +1064,7 @@ select:focus {
 }
 .main-menu .navigation > li:hover > a, 
 .main-menu .navigation > li.current > a {
-    color: #e9212e; 
+    color: #F94C1E ; 
 }
 
 .main-menu .navigation > li > ul {
@@ -1143,7 +1143,7 @@ select:focus {
     transform: scale(1.0);
 }
 .main-menu .navigation > li > ul > li:hover > a {
-    color: #e9212e;
+    color:#F94C1E ;
     padding-left: 70px;
 }
 
@@ -1929,7 +1929,7 @@ select:focus {
     font-weight: 600;
 }
 .about-image-box .text-box h3 span{
-    color: #e9212e;
+    color: #F94C1E ;
     font-size: 15px;
     font-weight: 400;
     font-family: 'Rubik', sans-serif;
@@ -1966,7 +1966,7 @@ select:focus {
     bottom: -30px;
     font-family: "Flaticon";
     content: "\f103";
-    color: #e9212e;
+    color:RGB (249, 76, 30);
     font-size: 40px;
     line-height: 40px;
     transform: perspective(1200px) rotateY(180deg) translateZ(0px);
@@ -2140,7 +2140,7 @@ select:focus {
     top: -25px;
     width: 50px;
     height: 50px;
-    background: #e9212e;
+    background: #F94C1E ;
     border-radius: 50%;
     text-align: center;
     display: block;
@@ -2151,14 +2151,14 @@ select:focus {
 .single-working-box:hover .text-holder .plus-icon-box {
     top: -50px;
     height: 75px;
-    background: #e9212e;
+    background: #F94C1E ;
     border-radius: 25px 25px 0px 0px;
     padding: 27px 0;
 }
 
 .single-working-box .text-holder .plus-icon-box span:before{
     display: block;
-    color: #ffffff;
+    color: #0f0e0e;
     font-size: 20px;
     line-height: 20px;
 }
@@ -2190,7 +2190,7 @@ select:focus {
     text-align: center;
 }
 .single-working-box .text-holder .outer-box .icon .inner .box span:before{
-    color: #e9212e;
+    color: #F94C1E ;
     font-size: 35px;
     line-height: 35px;
 }
@@ -2295,7 +2295,7 @@ select:focus {
 }
 .single-project-style1 .overlay-content .inner-content .link-box a:hover{
     color: #ffffff;
-    background: #e9212e;  
+    background: #F94C1E ;  
 }
 
 .single-project-style1 .img-holder .title-box {
@@ -3226,7 +3226,7 @@ select:focus {
     z-index: 1;
 } 
 .single-footer-widget .title h3 {
-    color: #ffffff;
+    color: #F94C1E ;
     font-size: 24px;
     line-height: 24px;
     font-weight: 600;
@@ -3301,7 +3301,7 @@ select:focus {
     transition: all 500ms ease;
 }
 .single-footer-widget .services-links ul li a:hover{
-    color: #ffffff;
+    color: #F94C1E ;
 }
 .single-footer-widget .services-links ul li a:before {
     position: absolute;
@@ -3309,7 +3309,7 @@ select:focus {
     left: 0;
     content: "\f107";
     font-family: "Flaticon";
-    color: #7c7e84;
+    color: white;
     font-size: 10px;
     transition: all 500ms ease;
     font-weight: 600;
@@ -3721,6 +3721,7 @@ select:focus {
 }
 .logo-box-style1 a img{
     width: 80px;
+    padding: 20px;
 }
 .main-menu.style2 .navigation > li {
     margin-right: 52px;
@@ -3817,7 +3818,7 @@ select:focus {
     margin: 0 0 5px;
 }
 .about-style2-text .authorised-info .name p{
-    color: #e9212e;
+    color: #938e8e;
     line-height: 20px;
     margin: 0;
 }
@@ -6755,7 +6756,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     margin: 0 0 2px;
 }
 .single-testimonial-style3 .client-info .title span{
-    color: #e9212e;
+    color: #F94C1E ;
 }
 .single-testimonial-style3 .text-box{
     position: relative;
@@ -13384,7 +13385,7 @@ object-fit: cover;
 
 .process-heading {
   font-size: 24px;
-  color: #4b2b63;
+  color: #F94C1E ;
   margin-bottom: 40px;
 }
 
@@ -13508,7 +13509,7 @@ object-fit: cover;
   margin-bottom: 40px;
 }
 
-.scroll-wrapper {
+/* .scroll-wrapper {
   overflow: hidden;
   width: 100%;
   position: relative;
@@ -13517,17 +13518,45 @@ object-fit: cover;
 .scroll-content {
   display: flex;
   gap: 50px;
-  animation: scroll-left 30s linear infinite; /* changed */
+  animation: scroll-left 30s linear infinite; 
 }
 
 @keyframes scroll-left {
   0% {
-    transform: translateX(0%); /* start from right */
+    transform: translateX(0%);
   }
   100% {
-    transform: translateX(-50%); /* move to left */
+    transform: translateX(-50%);
+  }
+} */
+ .scroll-wrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.scroll-content {
+  display: flex;
+  gap: 50px;
+  width: max-content;
+  animation: scroll-left 30s linear infinite;
+}
+
+.item {
+  min-width: 100px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
   }
 }
+
 
 
 .feature-item {
@@ -13550,4 +13579,7 @@ object-fit: cover;
   margin: 0;
 }
 
+.icon-architecture-and-city1 {
+  color: #F94C1E;
+}
 
