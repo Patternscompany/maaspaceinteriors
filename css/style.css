@@ -122,7 +122,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 h3 {
-    color: #27282c;
+    
     font-size: 20px; 
     line-height: 26px;
 }
@@ -497,7 +497,7 @@ li{
     position: absolute;
     top: 22px;
     right: 40px;
-    color: #b4b4b4;
+    color:#F94C1E ;
     content: "\f10d";
     font-size: 25px;
     line-height: 25px;
@@ -505,11 +505,11 @@ li{
     transition: all 500ms ease 0s;
 }
 .accordion-box .accordion .accord-btn.active{
-    background: #27282c;
+    background: #F94C1E ;
     transition: all 500ms ease;
 }
 .accordion-box .accordion .accord-btn.active h4 {
-    color: #ffffff;
+    color: black;
 }
 .accordion-box .accordion .accord-btn.active:after{
     color: #ffffff;
@@ -3720,7 +3720,7 @@ select:focus {
     width: 80px;
 }
 .logo-box-style1 a img{
-    width: 80px;
+    width: 90px;
     padding: 20px;
 }
 .main-menu.style2 .navigation > li {
