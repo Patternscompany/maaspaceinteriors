@@ -1093,7 +1093,7 @@ select:focus {
     left: 0;
     bottom: 0;
     width: 100%;
-    background: #000000;
+    background:black;
     content: "";
     z-index: -1;
 }
@@ -1298,7 +1298,7 @@ select:focus {
 .outer-search-box .seach-toggle {
     position: relative;
     display: block;
-    color: #27282c;
+    color: white;
     font-size: 16px;
     line-height: 50px;
     cursor: pointer;
@@ -1307,8 +1307,8 @@ select:focus {
     width: 50px;
     border-radius: 3px;
     margin: 0;
-    border-right: 1px solid #ededed;
-    background: #ffffff;
+    border-right: 1px solid black;
+    background: black;
     transition: all 500ms ease;
 }
 .outer-search-box .seach-toggle:hover,
@@ -2865,11 +2865,11 @@ select:focus {
 }
 .appointment-form .single-box .dropdown-item.active,
 .appointment-form .single-box .dropdown-item:active {
-    background: #e9212e;
+    background:#F94C1E;
     color: #fff;
 }
 .appointment-form .single-box .dropdown-item:hover {
-    background: #e9212e;
+    background:#F94C1E;
     color: #fff;
 }
 
