@@ -672,7 +672,7 @@ li .single-footer-contact-info .text p br{
 }    
 .logo-box-style1 {
     position: absolute;
-    margin: 15px 0;
+    /* margin: 15px 0; */
     top: 0;
     left: 20px;
     float: none !important;
@@ -703,7 +703,7 @@ li .single-footer-contact-info .text p br{
     max-width: 100%;
 }  
 .header-upper-style1.fixed-header .logo-box-style1 {
-    margin: 15px 0;
+    /* margin: 15px 0; */
 } 
 .header-upper-style1.fixed-header .outer-search-box {
     padding: 15px 0;
@@ -1480,14 +1480,14 @@ li .single-footer-contact-info .inner {
 }    
 .logo-box-style1 {
     position: absolute;
-    margin: 22px 0 23px;
+    /* margin: 22px 0 23px; */
     top: 0;
     left: 10px;
     float: none !important;
     z-index: 33;
 }
 .logo-box-style1 img {
-    max-width: 70%;
+    max-width: 100%;
 }    
     
 .main-menu-box {
@@ -1515,7 +1515,7 @@ li .single-footer-contact-info .inner {
     max-width: 100%;
 }  
 .header-upper-style1.fixed-header .logo-box-style1 {
-    margin: 22px 0 23px;
+    /* margin: 22px 0 23px; */
 }
 .header-upper-style1.fixed-header .outer-search-box {
     padding: 15px 0;
