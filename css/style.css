@@ -118,7 +118,9 @@ button {
 h1, h2, h3, h4, h5, h6 {
     color: #F94C1E ;
     font-weight: 700;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Gendy';
+
     margin: 0;
 }
 h3 {
@@ -1855,7 +1857,7 @@ select:focus {
     display: block;
     max-width: 470px;
     width: 100%;
-    background: #f6f6f6;
+    /* background: #f6f6f6; */
     padding-top: 60px;
     padding-left: 60px;
 }
@@ -1880,7 +1882,7 @@ select:focus {
 .about-image-box .inner-box .overlay{
     position: absolute;
     top: 0;
-    left: 0;
+    left: 2px;
     width: 100%;
     height: 100%;
 }
@@ -1914,7 +1916,7 @@ select:focus {
     bottom: 30px;
     font-family: 'icomoon';
     content: "\e939";
-    color: #ebebeb;
+    /* color: #ebebeb; */
     font-size: 70px;
     line-height: 70px;
     transform: perspective(1200px) rotateX(180deg) translateZ(0px);
@@ -2058,7 +2060,7 @@ select:focus {
     z-index: 1;
 }
 .working-area::before {
-    background: rgba(40, 41, 46, 0.97) none repeat scroll 0 0;
+    background: black none repeat scroll 0 0;
     position: absolute;
     top: 0;
     left: 0;
@@ -13646,4 +13648,32 @@ object-fit: cover;
   .owl-carousel .owl-item {
     height: auto !important;
   }
+}
+
+.single-contact-info {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light grey background */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Soft shadow */
+  max-width: 400px;
+  margin: 0 auto; /* Center align */
+}
+
+.contact-heading {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.contact-address {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.site-logo {
+  height: 80px;        
+  width: 150px;        
+
 }
