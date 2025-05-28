@@ -91,9 +91,9 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="inner-container clearfix">
-                                <div class="logo-box-style1 float-left">
+                                <div class="header-logo float-left">
                                     <a href="index.html">
-                                        <img src="images/logo/Maa-Space.png" alt="Awesome Logo" class="site-logo">
+                                        <img src="images/logo/new-updated-logo.png" alt="Awesome Logo" class="site-logo">
                                     </a>
                                 </div>
 
@@ -1580,13 +1580,20 @@ height: 300px;
                                 <h3>Wanna Work With Our Profesional Team? Make an Appointment.</h3>
                             </div>
                             <div class="button float-right">
-                                <a class="btn-one" href="#">Make an Appointment<span class="flaticon-next"></span></a>
+                                <a class="btn-one" id="open-popup">Make an Appointment<span class="flaticon-next"></span></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <script>
+    document.getElementById("open-popup").addEventListener("click", function (e) {
+        e.preventDefault(); // Prevents page from jumping
+        document.getElementById("pop-up").style.display = "block";
+    });
+</script>
+
         <!--End slogan area-->
 
         <!--Start Testimonial Style3 service page-->
@@ -2024,7 +2031,7 @@ height: 300px;
                             <div class="contact-info-box">
                                 <div class="footer-logo">
                                     <a href="index.html">
-                                        <img src="images/logo/Group-366.png" alt="Awesome Logo">
+                                        <img src="images/logo/new-updated-logo.png" alt="Awesome Logo">
                                     </a>
                                 </div>
                                 <ul>
