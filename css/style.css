@@ -328,7 +328,7 @@ li{
     font-weight: 400;
     text-transform: none;
     margin: 13px 0 0;
-    font-family: 'Rubik', sans-serif;
+     font-family: 'Helvetica', sans-serif !important;
 }
 
 
@@ -2209,9 +2209,11 @@ select:focus {
     color: #27282c;
     font-weight: 600;
     margin: 0 0 13px;
+     font-family: 'Helvetica', sans-serif !important;
 }
 .single-working-box .text-holder .outer-box .text p{
     margin: 0;
+    font-family: 'Helvetica', sans-serif !important;
 }
 
 
@@ -8115,6 +8117,7 @@ object-fit: cover;
 }
 .additional-info-content-box .accordion-box .accordion .accord-btn h4{
     font-size: 17px;
+    font-family: 'Helvetica', sans-serif !important;
 }
 
 
@@ -13493,7 +13496,7 @@ object-fit: cover;
   .step-text {
     font-size: 13px;
     line-height: 1.5;
-     font-family: 'Helvetica', sans-serif;
+    font-family: 'Helvetica', sans-serif !important;
   }
 }
 
