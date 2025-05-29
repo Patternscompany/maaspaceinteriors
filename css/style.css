@@ -3306,6 +3306,7 @@ select:focus {
     font-weight: 400;
     padding-left: 20px;
     transition: all 500ms ease;
+    font-family: 'Helvetica', sans-serif !important;
 }
 .single-footer-widget .services-links ul li a:hover{
     color: #F94C1E ;
@@ -7120,7 +7121,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     padding: 143px 0 86px;
 }
 .breadcrumb-area .inner-content-box .title-s2 span{
-    color: #e9212e;
+    color: #F94C1E;
     font-size: 14px;
     line-height: 18px;
     font-weight: 600;
@@ -9199,7 +9200,9 @@ object-fit: cover;
     padding-bottom: 32px;
 }
 .project-description-content .sec-title p{
-    margin: 0 0 5px;
+    margin:5px;
+    padding: 5px;
+    
 }
 .project-description-content .sec-title .title {
     font-size: 30px;
