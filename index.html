@@ -2262,56 +2262,88 @@ height: 300px;
 
     <!-- Your existing pop-up -->
 
-    <div id="pop-up" style="display: none;">
-        <button class="close-btn" onclick="document.getElementById('pop-up').style.display='none'">×</button>
-        <form class="appointment-form">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="single-box">
-                        <input type="text" name="form_name" value="" placeholder="Name" required="">
-                    </div>
+   <div id="pop-up" style="display: none;">
+    <button class="close-btn" onclick="document.getElementById('pop-up').style.display='none'">×</button>
+    <form class="appointment-form">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="single-box">
+                    <input type="text" name="form_name" value="" placeholder="Name" required>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="single-box">
-                        <input type="email" name="form_email" value="" placeholder="Email" required="">
-                    </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="single-box">
+                    <input type="email" name="form_email" value="" placeholder="Email" required>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="single-box">
-                        <input type="tel" name="form_phone" value="" placeholder="Phone Number" required="">
-                    </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="single-box">
+                    <input type="tel" name="form_phone" value="" placeholder="Phone Number" required>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="single-box">
-                        <select class="selectpicker" data-width="100%">
-                            <option selected="selected">Services</option>
-                            
-                            <option>Interior Designing</option>
-                             <option>Construction Designing</option>
-                             <option>Architectural Designing</option>
-                            <option>Furniture Designing</option>
-                        </select>
-                    </div>
+        </div>
+
+        <!-- Main Service Selection -->
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="single-box">
+                    <select id="service-select" class="selectpicker" data-width="100%" required>
+                        <option value="">Select Service</option>
+                        <option value="interior">Interior Designing</option>
+                        <option value="construction">Construction Designing</option>
+                        <option value="architectural">Architectural Designing</option>
+                        <option value="furniture">Furniture Designing</option>
+                    </select>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xl-4">
-                    <div class="single-box">
-                        <button class="btn-one" type="submit">Submit</button>
-                    </div>
+        </div>
+
+        <!-- Subcategory for Interior Designing -->
+        <div class="row" id="subcategory-container" style="display: none;">
+            <div class="col-xl-12">
+                <div class="single-box">
+                    <select id="subcategory-select" class="selectpicker" data-width="100%">
+                        <option value="">Select Interior Category</option>
+                        <option value="2bhk">2BHK</option>
+                        <option value="3bhk">3BHK</option>
+                        <option value="villa">Villa</option>
+                         <option value="duplex">Duplex</option>
+                        <option value="commercial">Commercial Space</option>
+                    </select>
                 </div>
             </div>
-        </form>
-    </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xl-4">
+                <div class="single-box">
+                    <button class="btn-one" type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
     <style>
 
     </style>
+    <script>
+    document.getElementById('service-select').addEventListener('change', function () {
+        const subcategory = document.getElementById('subcategory-container');
+        if (this.value === 'interior') {
+            subcategory.style.display = 'block';
+        } else {
+            subcategory.style.display = 'none';
+        }
+    });
+</script>
+
+
+
 
     <!-- AOS Animation JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
