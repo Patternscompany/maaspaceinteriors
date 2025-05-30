@@ -1878,6 +1878,7 @@ select:focus {
 }
 .about-image-box .inner-box img{
     width: 100%;
+    padding-right: 30px;
 }
 .about-image-box .inner-box .overlay{
     position: absolute;
