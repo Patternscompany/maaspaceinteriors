@@ -2843,8 +2843,8 @@ li .single-footer-contact-info .inner {
     z-index: 12;
 }    
 .main-menu .navbar-header .navbar-toggle {
-    background: #000100;
-    border: 1px dashed #000100;
+    background:black;
+    border: 1px dashed black;
     display: inline-block;
     border-radius: 3px;
     float: none;
