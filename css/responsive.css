@@ -688,7 +688,7 @@ li .single-footer-contact-info .text p br{
     position: absolute;
     float: none;
     margin-left: 0;
-    top: 0;
+    top: 10%;
     right: 60px;
     z-index: 33;
 }    
@@ -1500,7 +1500,7 @@ li .single-footer-contact-info .inner {
     position: absolute;
     float: none;
     margin-left: 0;
-    top: 0;
+    top: 10%;
     right: 60px;
     z-index: 33;
 }    
@@ -2855,7 +2855,7 @@ li .single-footer-contact-info .inner {
     cursor: pointer;
     padding: 0 9px;
     position: absolute;
-    top: 0;
+    top: 10%;
     right: 0;
 }
 .main-menu .navbar-header .navbar-toggle .icon-bar {
