@@ -30,138 +30,143 @@
     <div class="boxed_wrapper">
 
         <div class="preloader"></div>
-      <!-- Start Top Bar style3 -->
-      <section class="topbar-style3-area">
-        <div class="container clearfix">
-            <div class="topbar-style3-content">
-                <div class="topbar-style3-left">
-                    <div class="button">
-                        <a class="btn-one" href="#">Get a Quote<span class="flaticon-next"></span></a>
-                    </div>
+  
+       <!-- Start Top Bar style3 -->
+ <section class="topbar-style3-area">
+    <div class="container clearfix">
+        <div class="topbar-style3-content">
+            <div class="topbar-style3-left">
+                <div class="button">
+                    <a class="btn-one" href="#" id="get-quote-btn">Get a Quote<span class="flaticon-next"></span></a>
                 </div>
-                <div class="topbar-style3-right">
-                    <ul class="top-head">
-                        <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>admin@maaspace.com</a></li>
-                        <li>
+            </div>
+            <div class="topbar-style3-right">
+                <ul class="top-head">
+                    <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>info@maaspace.com</a></li>
+                    <li>
   <a href="tel:+919030433446">
     <i class="fa fa-phone" aria-hidden="true"></i> +91-9030433446
   </a>
 </li>
 
-                    </ul>
-                </div>
+                </ul>
             </div>
         </div>
-    </section>
-    <!--End Top Bar style3 -->
+    </div>
+</section>
+<!--End Top Bar style3 -->
+
+<style>
+    .top-head{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: row !important;
+    }
+    .top-head li a{
+        display: flex !important;
+        flex-direction: row;
+        align-items: center !important;
+        justify-content: center !important;
+        color: white !important;
+    }
+    .top-head li a i{
+        margin-right: 5px !important;
+        color: white !important;
+    }
+    @media(max-width:992px){
+        .topbar-style3-content{
+            flex-direction: column;
+        }
+    }
+</style>
     
-    <style>
-        .top-head{
-            display: flex !important;
-            align-items: center !important;
-            justify-content: center !important;
-            flex-direction: row !important;
-        }
-        .top-head li a{
-            display: flex !important;
-            flex-direction: row;
-            align-items: center !important;
-            justify-content: center !important;
-            color: white !important;
-        }
-        .top-head li a i{
-            margin-right: 5px !important;
-            color: white !important;
-        }
-        @media(max-width:992px){
-            .topbar-style3-content{
-                flex-direction: column;
-            }
-        }
-    </style>
-    
-            <!--Start Main Header-->
-            <header class="main-header header-style1">
-    
-                <div class="header-upper-style1">
-                    <div class="container mw-100 p-0">
-                        <div class="row">
-                            <div class="col-xl-12">
-                                <div class="inner-container clearfix">
-                                    <div class="logo-box-style1 float-left">
-                                        <a href="index.html">
-                                            <img src="images/favicon/apple-touch-icon.png" alt="Awesome Logo">
-                                        </a>
-                                    </div>
-                                    <div class="main-menu-box ">
-                                        <nav class="main-menu clearfix">
-                                            <div class="navbar-header clearfix">
-                                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                                <span class="icon-bar"></span>
-                                                <span class="icon-bar"></span>
-                                                <span class="icon-bar"></span>
-                                            </button>
-                                            </div>
-                                            <div class="navbar-collapse collapse clearfix">
-                                                <ul class="navigation clearfix">
-                                                    <li ><a href="index.html">Home</a>
-                                                       
-                                                    </li>
-                                                    <li class=""><a href="about.html">About Us</a>
-                                                        
-                                                    </li>
-                                                    <li class="dropdown"><a href="#">Services <i class="fa fa-angle-down"></i> </a>
-                                                        <ul>
-                                                            <li><a href="interior-designing-services.html">Interior Designing</a></li>
-                                                             <li><a href="construction-designing-services.html">Construction Designing</a></li>
-                                                            <li><a href="architectural-designing-services.html">Architectural Designing</a></li>
-                                                            <li><a href="furniture-designing-services.html">Furniture Designing</a></li>
-                                                        
-                                                        </ul>
-                                                    </li>
-                                                    <li class="dropdown"><a href="#">Projects<i class="fa fa-angle-down"></i></a>
-                                                        <ul>
-                                                            <li><a href="commercial-projects.html">Commercial Projects</a></li>
-                                                            <li><a href="residential-projects.html">Residential Projects</a></li>
-                                                            <li><a href="#">Project 3</a></li>
-                                                            <li><a href="#">Project 4</a></li>
-                                                        </ul>
-                                                    </li>
-                                                   
-                                                    <li class=""><a href="gallery.html">Gallery</a>
-                                                        
-                                                    </li>
-                                                    <li><a href="contact.html">Contact</a></li>
-                                                </ul>
-                                            </div>
-                                        </nav>
-                                        <div class="mainmenu-right">
-                                            <div class="outer-search-box">
-                                                <div class="seach-toggle"><i class="fa fa-search"></i></div>
-                                                <ul class="search-box">
-                                                    <li>
-                                                        <form method="post" action="#">
-                                                            <div class="form-group">
-                                                                <input type="search" name="search" placeholder="Search Here" required>
-                                                                <button type="submit"><i class="fa fa-search"></i></button>
-                                                            </div>
-                                                        </form>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                           
+          <!--Start Main Header-->
+        <header class="main-header header-style1">
+
+            <div class="header-upper-style1">
+                <div class="container mw-100 p-0">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="inner-container clearfix">
+                                <div class="header-logo float-left">
+                                    
+                                    <a href="index.html" style="z-index:9999; position:relative; display:inline-block;">
+  <img src="images/logo/new-updated-logo.png" alt="Awesome Logo">
+</a>
+
+
+
+
+                                </div>
+                                <div class="main-menu-box ">
+                                    <nav class="main-menu clearfix">
+                                        <div class="navbar-header clearfix">
+                                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
                                         </div>
-    
+                                        <div class="navbar-collapse collapse clearfix">
+                                            <ul class="navigation clearfix">
+                                                <li ><a href="index.html">Home</a>
+                                                   
+                                                </li>
+                                                <li class=""><a href="about.html">About Us</a>
+                                                    
+                                                </li>
+                                                <li class="dropdown"><a href="#">Services <i class="fa fa-angle-down"></i> </a>
+                                                    <ul>
+                                                        <li><a href="interior-designing-services.html">Interior Designing</a></li>
+                                                         <li><a href="construction-designing-services.html">Construction Designing</a></li>
+                                                        <li><a href="architectural-designing-services.html">Architectural Designing</a></li>
+                                                        <li><a href="furniture-designing-services.html">Furniture Designing</a></li>
+                                                    
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown"><a href="#">Projects<i class="fa fa-angle-down"></i></a>
+                                                    <ul>
+                                                        <li><a href="commercial-projects.html">Commercial Projects</a></li>
+                                                        <li><a href="residential-projects.html">Residential Projects</a></li>
+                                                        
+                                                    </ul>
+                                                </li>
+                                               
+                                                <li class=""><a href="gallery.html">Gallery</a>
+                                                    
+                                                </li>
+                                                <li><a href="contact.html">Contact</a></li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                    <div class="mainmenu-right">
+                                        <div class="outer-search-box">
+                                            <div class="seach-toggle"><i class="fa fa-search"></i></div>
+                                            <ul class="search-box">
+                                                <li>
+                                                    <form method="post" action="#">
+                                                        <div class="form-group">
+                                                            <input type="search" name="search" placeholder="Search Here" required>
+                                                            <button type="submit"><i class="fa fa-search"></i></button>
+                                                        </div>
+                                                    </form>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                       
                                     </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-    
-              
-            </header>
-            <!--End Main Header-->
+            </div>
+
+          
+        </header>
+        <!--End Main Header-->
 
         <!--Start breadcrumb area-->
         <section class="breadcrumb-area style2" style="background-image: url(images/resources/breadcrumb-bg-2.jpg);">
@@ -205,7 +210,7 @@
         </section>
         <!--End Error Page  wow slideInUp" data-wow-delay="0ms" data-wow-duration="1500ms" Area-->
 
-         <!--Start footer area-->
+       <!--Start footer area-->
       <footer class="footer-area">
         <div class="footer-shape-bg wow slideInRight" data-wow-delay="300ms" data-wow-duration="2500ms"></div>
         <div class="container">
@@ -241,7 +246,7 @@
 
                                     <li>
                                         <h6 style="color: #F94C1E ;">Email</h6>
-                                        <p style="color: white;">admin@maaspace.com<br>
+                                        <p style="color: white;">info@maaspace.com<br>
                                     </li>
                                 </ul>
                         </div>
@@ -260,6 +265,7 @@
                                 <li><a href="interior-designing-services.html">Interior Designing</a></li>
                                   <li><a href="construction-designing-services.html">Construction Designing</a></li>
                                 <li><a href="furniture-designing-services.html">Furniture Designing</a></li>
+                               
                             </ul>
                         </div>
                     </div>
@@ -276,7 +282,8 @@
                                 <li><a href="index.html">Home</a></li>
                                  <li><a href="about.html">About Us</a></li>
                                  <li><a href="gallery.html">Gallery</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                               
                             </ul>
                         </div>
                     </div>
@@ -362,110 +369,64 @@
     </section>
     <!--End footer bottom area-->
 
-    </div>
+</div>
 
-    <div class="scroll-to-top-style2 scroll-to-target" data-target="html">
-        <span class="fa fa-angle-up"></span>
-    </div>
-     <div class="scroll-to-top-style2 whatsapp" data-target="html">
+
+<div class="scroll-to-top-style2 scroll-to-target" data-target="html">
+    <span class="fa fa-angle-up"></span>
+</div>
+ <div class="scroll-to-top-style2 whatsapp" data-target="html">
   <a href="https://wa.me/919030433446" target="_blank" rel="noopener">
     <img src="./images/icon/maa-space-whatsapp.png" alt="Chat on WhatsApp" />
   </a>
 </div>
-
-    <div class="social-fix">
-        <div class="card">
-            <ul>
-              <li class="iso-pro">
-                <span></span>
-                <span></span>
-                <span></span>
-                <a href="">
-                  <a href="">
+<div class="social-fix">
+    <div class="card">
+        <ul>
+          <li class="iso-pro">
+            <span></span>
+            <span></span>
+            <span></span>
+            <!-- <a href="">
+              <svg
+                viewBox="0 0 320 512"
+                xmlns="http://www.w3.org/2000/svg"
+                class="svg"
+              >
+                <path
+                  d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                ></path></svg></a> -->
+                 <a href="">
                      <img src="images/icon/facebook .png" alt="Facebook" style="width: 24px; height: 24px">
                   </a>
-                <div class="text">Facebook</div>
-              </li>
-              <li class="iso-pro">
-                <span></span>
-                <span></span>
-                <span></span>
-                <a href="">
-                        <img src="images/icon/twitter-icon.png" alt="Facebook" style="width: 24px; height: 24px">
-                       
-                        <path d="M1046.5 0H911.9L598.5 451.7 260.3 0H0L460.5 634.4 0 1227h134.6l348.6-497.1L941 1227h259.1L752.7 654.7 1200 0h-153.5L675 461.2 1046.5 0z"/>
-                      </svg>
-                </a>
-                <div class="text">Twitter</div>
-              </li>
-              <li class="iso-pro">
-                <span></span>
-                <span></span>
-                <span></span>
-                <a href="">
-                  <svg
-                    class="svg"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 448 512"
-                  >
-                    <path
-                      d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
-                    ></path>
+            <div class="text">Facebook</div>
+          </li>
+          <li class="iso-pro">
+            <span></span>
+            <span></span>
+            <span></span>
+            <a href="">
+                <img src="images/icon/twitter-icon.png" alt="Facebook" style="width: 24px; height: 24px">
+                    <path d="M1046.5 0H911.9L598.5 451.7 260.3 0H0L460.5 634.4 0 1227h134.6l348.6-497.1L941 1227h259.1L752.7 654.7 1200 0h-153.5L675 461.2 1046.5 0z"/>
                   </svg>
+            </a>
+            <div class="text">Twitter</div>
+          </li>
+          <li class="iso-pro">
+            <span></span>
+            <span></span>
+            <span></span>
+            <a href="">
+                 
+                  <img src="images/icon/instagram (1).png" alt="Facebook" style="width: 24px; height: 24px">
                 </a>
-                <div class="text">Instagram</div>
-              </li>
-            </ul>
-          </div>
-        </div>
+            <div class="text">Instagram</div>
+          </li>
+        </ul>
+      </div>
+    </div>
 
 
-        <div id="pop-up" style="display: none;">
-            <button class="close-btn" onclick="document.getElementById('pop-up').style.display='none'">×</button>
-            <form class="appointment-form">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="single-box">
-                            <input type="text" name="form_name" value="" placeholder="Name" required="">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="single-box">
-                            <input type="email" name="form_email" value="" placeholder="Email" required="">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="single-box">
-                            <input type="tel" name="form_phone" value="" placeholder="Phone Number" required="">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="single-box">
-                            <select class="selectpicker" data-width="100%">
-                                <option selected="selected">Services</option>
-                                <option>Architectural Designing</option>
-                                <option>Interior Designing</option>
-                                <option>Office Designing</option>
-                                <option>Furniture Designing</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-4">
-                        <div class="single-box">
-                            <button class="btn-one" type="submit">Submit</button>
-                        </div>
-                    </div>
-                </div>
-            </form>
-        </div>
 
 
     <script src="js/jquery.js"></script>
@@ -490,23 +451,8 @@
     <script src="assets/timepicker/timePicker.js"></script>
     <script src="assets/html5lightbox/html5lightbox.js"></script>
 
-    <!--Revolution Slider-->
-    <script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
-    <script src="js/main-slider-script.js"></script>
-
     <!-- thm custom script -->
     <script src="js/custom.js"></script>
-
 
 
 </body>
