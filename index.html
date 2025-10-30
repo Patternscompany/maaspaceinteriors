@@ -520,9 +520,13 @@
                                 <img src="images/projects/v1-5.jpg" alt="Awesome Image">
                             </div>
                             <div class="s" data-aos="zoom-in" data-aos-delay="200">
-                                <p>Experienced & knowledgeable Interior designers.</p>
-                                <h3>Sai Kumar, <span>CEO & Founder</span></h3>
-                            </div>
+  <p>Experienced & knowledgeable Interior designers.</p>
+  <div class="ceo-info">
+    <img src="images/blog/author.png" alt="Sai Kumar" class="ceo-img">
+    <h3>Sai Kumar, <span>CEO & Founder</span></h3>
+  </div>
+</div>
+
                         </div>
                     </div>
                     <div class="col-xl-7 col-lg-7" data-aos="fade-left">
@@ -580,6 +584,20 @@
         <!--End about Area-->
 
         <style>
+            .ceo-info {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between image and text */
+}
+
+.ceo-img {
+  width: 50px;       /* adjust size */
+  height: 50px;
+  border-radius: 50%; /* makes it round */
+  object-fit: cover;  /* ensures the image fits nicely */
+  border: 2px solid #ccc; /* optional border */
+}
+
             .about-area .feature-box {
                 position: relative;
                 padding: 30px;
