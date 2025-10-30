@@ -5810,6 +5810,16 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     /* border-right: 1px solid #dadada;
     padding-right: 20px; */
 }
+   .desk-nav{
+        display: flex !important;
+        align-items: center;
+        justify-content: space-between;
+    }
+    @media(max-width:992px){
+        .desk-nav{
+            display:block !important;
+        }
+    }
 .topbar-style3-right ul li{
     position: relative;
     display: inline-block;
